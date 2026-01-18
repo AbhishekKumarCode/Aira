@@ -1,0 +1,87 @@
+.aira-product{
+  padding:140px 8%;
+}
+
+.product-hero{
+  text-align:center;
+  margin-bottom:120px;
+}
+
+.product-hero h1{
+  font-size:52px;
+  letter-spacing:.14em;
+  font-weight:400;
+}
+
+.product-hero p{
+  margin-top:14px;
+  color:#777;
+}
+
+.product-showcase{
+  display:flex;
+  flex-direction:column;
+  gap:120px;
+}
+
+.product-row{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  align-items:center;
+  gap:80px;
+}
+
+.product-row.reverse{
+  direction:rtl;
+}
+
+.product-row.reverse .product-text{
+  direction:ltr;
+}
+
+.product-row img{
+  width:100%;
+  border-radius:24px;
+}
+
+.product-text h3{
+  font-size:32px;
+  letter-spacing:.14em;
+  font-weight:400;
+}
+
+.product-text p{
+  margin-top:12px;
+  color:#777;
+  letter-spacing:.08em;
+}
+
+.product-quote{
+  margin:160px auto;
+  text-align:center;
+  font-size:20px;
+  letter-spacing:.14em;
+  color:#555;
+}
+
+.product-cta{
+  text-align:center;
+}
+
+.product-cta a{
+  letter-spacing:.14em;
+  border-bottom:1px solid #222;
+  text-decoration:none;
+}
+@media(max-width:768px){
+
+  .product-row{
+    grid-template-columns:1fr;
+    gap:40px;
+  }
+
+  .product-hero h1{
+    font-size:34px;
+  }
+
+}

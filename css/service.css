@@ -1,0 +1,92 @@
+.aira-service-new{
+  padding:140px 8%;
+}
+
+.service-layout{
+  display:grid;
+  grid-template-columns:120px 1fr;
+  gap:80px;
+}
+
+.service-left{
+  writing-mode:vertical-rl;
+  text-orientation:mixed;
+}
+
+.service-label{
+  letter-spacing:.4em;
+  font-size:14px;
+  color:#aaa;
+}
+
+.service-intro{
+  font-size:20px;
+  color:#666;
+  margin-bottom:80px;
+}
+
+.service-list{
+  display:flex;
+  flex-direction:column;
+  gap:60px;
+}
+
+.service-item h3{
+  font-size:26px;
+  letter-spacing:.14em;
+  font-weight:400;
+}
+
+.service-item p{
+  margin-top:8px;
+  font-size:14px;
+  color:#777;
+  letter-spacing:.08em;
+}
+
+.service-flow{
+  margin:120px auto;
+  text-align:center;
+  letter-spacing:.18em;
+  color:#555;
+}
+
+.service-flow span{
+  margin:0 6px;
+}
+
+.service-quote{
+  text-align:center;
+  font-size:18px;
+  letter-spacing:.14em;
+  color:#666;
+  line-height:2;
+}
+.service-image {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.service-image img {
+  max-width:100%;
+  border-radius:20px;
+  object-fit:cover;
+  opacity:.9;
+}
+@media(max-width:768px){
+
+  .service-layout{
+    grid-template-columns:1fr;
+  }
+
+  .service-left{
+    writing-mode:horizontal-tb;
+    margin-bottom:40px;
+  }
+
+  .service-intro{
+    font-size:16px;
+  }
+
+}
